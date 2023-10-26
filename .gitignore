@@ -1,0 +1,30 @@
+.env
+# python packages
+
+python_app/.venv
+# add ignore files for wordpress 
+.DS_Store
+Thumbs.db
+
+# Ignore WordPress core files
+wp/wordpress
+wp/wp-admin
+wp/wp-includes
+wp/wp-content/plugins
+wp/wp-content/mu-plugins
+wp/wp-content/languages
+
+# Ignore configuration files
+wp-config.php
+.htaccess
+
+# Ignore default themes
+wp/wp-content/themes/twenty*
+
+# Ignore cache and temporary files
+wp/cache
+wp/tmp
+
+# Ignore user uploads
+wp/wp-content/uploads
+
